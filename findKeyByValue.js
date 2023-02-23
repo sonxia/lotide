@@ -27,3 +27,5 @@ assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
 assertEqual(findKeyByValue(bestTVShowsByGenre, "Hannibal"), "psychological")
 assertEqual(findKeyByValue(bestTVShowsByGenre, "Moon Knight"), "action")
 assertEqual(findKeyByValue(bestTVShowsByGenre, "Lucifer", undefined))
+
+module.exports = findKeyByValue;

@@ -23,9 +23,12 @@ const assertObjectsEqual = function(object1, object2) {
   }
 };
 
+
 object1 = {x: 1, y: 3}
 object2 = {x: 2, y: 4}
 object3 = {y: 4, x: 2}
 
-assertObjectsEqual(object1, object2)
+console.log(assertObjectsEqual(object1, object2))
 assertObjectsEqual(object2, object3)
+
+module.exports = assertObjectsEqual;

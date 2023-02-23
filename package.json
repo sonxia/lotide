@@ -1,0 +1,26 @@
+{
+  "name": "@sonxia_/lotide",
+  "version": "1.0.0",
+  "description": "mini version of the lodash library",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonxia/lotide.git"
+  },
+  "author": "Sonia Mudhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonxia/lotide/issues"
+  },
+  "homepage": "https://github.com/sonxia/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^9.2.2"
+  }
+}

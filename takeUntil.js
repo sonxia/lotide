@@ -53,3 +53,6 @@ const beforeHollywood = (x) => {
 
 console.log(assertArraysEqual(takeUntil(data1, lessThanZero), [1, 2, 5, 7, 2]))
 console.log(assertArraysEqual(takeUntil(data2, beforeHollywood), ["I've", "been", "to"]))
+
+module.exports = takeUntil;
+

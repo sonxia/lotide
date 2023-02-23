@@ -47,3 +47,5 @@ const getBH = (key) => {
 
 assertEqual(findKey(sTARS, getAkaleri), "Akaleri")
 assertEqual(findKey(sTARS, getBH), "Bluehill")
+
+module.exports = findKey;

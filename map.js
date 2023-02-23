@@ -46,3 +46,4 @@ console.log(assertArraysEqual(map(words, getFirstIndex), ['g', 'c', 't', 'm', 't
 console.log(assertArraysEqual(map(words, getValue), ['g', 'c', 't', 'm', 't']));
 console.log(assertArraysEqual(map(["one", "two"], getLength), words));
 
+module.exports = map;
